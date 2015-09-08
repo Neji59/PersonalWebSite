@@ -16,7 +16,6 @@
 			</div>
 			<div class="panel-body">
 				<p>C'est au lycée que m'est apparue la passion pour l'informatique. L'influence croissant de ce domaine sur nos vies m'a toujours impréssionné. C'est pourquoi j'ai voulue faire dans études d'informatique pour pouvoir faire partie de cette aventure.</br><p>
-				<p>Je recherche actuellement un stage de 3 mois commencant le 18 Mai 2015 dans une soci�t� d'informatique.</p>
 				<p>Mon CV est telechargeable en version PDF <a href="cv-letupe.pdf">ici</a></p>
 			</div>
 		</div>
@@ -86,7 +85,7 @@
 				<p>Systeme d'exploitation connues :</br>
 					<span class="label label-info">Linux</span>
 					<span class="label label-info">Windows</span>
-					<span class="label label-info">AS400</span>
+<!-- 					<span class="label label-info">AS400</span> -->
 				</p>
 			</div>
 		</div>
@@ -99,7 +98,7 @@
 			<div class="panel-body">
 				<p>
 					<ul>
-						<li>Anglais : courant</li>
+						<li>Anglais : courant (score TOEIC : 850)</li>
 						<li>Espagnol : intermédiaire</li>
 					</ul>
 				</p>
@@ -123,6 +122,7 @@
 				</p>
 			</div>
 		</div>
+	</div>
 	</div>
 	</body>
 </html>

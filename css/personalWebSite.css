@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+
+header{
+	text-align: center;
+	background-color: #D35F5F;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .title {
+	font-size: 3em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
