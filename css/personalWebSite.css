@@ -2,7 +2,7 @@
 
 header{
 	text-align: center;
-	background-color: #D35F5F;
+	background-color: #FF5555;
 }
 
 header .container {
@@ -34,7 +34,7 @@ header .intro-text .star-light {
 
 #projets {
 	text-align: center;
-	background-color: #916F6F;
+	background-color: #C8B7B7;
 }
 
 #projets .container {
@@ -90,7 +90,7 @@ header .intro-text .star-light {
 
 #CV {
 	text-align: center;
-	background-color: #D35F5F;
+	background-color: #FF5555;
 }
 
 #CV .container {
@@ -103,7 +103,7 @@ header .intro-text .star-light {
 }
 
 #contact {
-	background-color: #916F6F;
+	background-color: #C8B7B7;
 }
 
 #contact .container {

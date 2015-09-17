@@ -7,17 +7,25 @@
 		<link rel="stylesheet" href="../css/personalWebSite.css">
 		<link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
 		
+		<!-- Custom Theme JavaScript -->
+    	
+    	<script src="../js/jquery.js"></script>
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    	<script src="../js/PersonalWebSite.js"></script>
+<!--     	<script src="../js/classie.js"></script> -->
+<!--     	<script src="../js/cbpAnimatedHeader.js"></script> -->
 	</head>
-	<body>
+	<body id="page-top">
+		
 		<!--<?php include 'navBar.html';?>-->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
-				<div class="navbar-header"><a href="#" class="navbar-brand">Le Savoir est une Arme !</a></div>
+				<div class="navbar-header page-scroll"><a href="#page-top" class="navbar-brand">Le Savoir est une Arme !</a></div>
 				
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#projets">Projets</a></li>
-					<li><a href="#CV">CV</a></li>
-					<li><a href="#">Contact</a></li>
+					<li class="page-scroll"><a href="#projets">Projets</a></li>
+					<li class="page-scroll"><a href="#CV">CV</a></li>
+					<li class="page-scroll"><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
