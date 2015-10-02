@@ -49,9 +49,9 @@ header .intro-text .star-light {
 
 #projets .portfolio-item {
 	/*distance between right of the block and right of the container*/
-    right: 0;
+/*     right: 0; */
  	/* margin top, right-left, bottom*/
-    margin: 0 0 15px;
+    margin-top : 20px;
 }
 
 #projets .portfolio-item .portfolio-link {
@@ -60,6 +60,13 @@ header .intro-text .star-light {
     /*margin top-bottom, right-left */
     margin: 0 auto;
     max-width: 400px;
+    max-height: 400px;
+}
+
+#projets .portfolio-item .portfolio-link .img-res-pers {
+/* 	display:block; */
+ 	width: 100%;
+ 	height: auto;
 }
 
 #projets .portfolio-item .portfolio-link .caption {

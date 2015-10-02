@@ -4,18 +4,27 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Kévin Letupe</title>
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/personalWebSite.css">
 		<link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
 		
 		<!-- Custom Theme JavaScript -->
     	
     	<script src="../js/jquery.js"></script>
-    	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!--     	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
+    	<script src="../bootstrap/js/bootstrap.js"></script>
     	<script src="../js/PersonalWebSite.js"></script>
-<!--     	<script src="../js/classie.js"></script> -->
-<!--     	<script src="../js/cbpAnimatedHeader.js"></script> -->
+    	
 	</head>
 	<body id="page-top">
+		
+    	<script type="text/javascript">
+// 		    $(document).ready(function(){
+// 		        $(".portfolio-link").click(function(){
+//         		    $("#portfolioModal1").modal('show');
+//         		});
+// 		    });
+     	</script>
 		
 		<!--<?php include 'navBar.html';?>-->
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -43,6 +52,7 @@
 				</div>
 			</div>
 		</header>
+		
 		<section id="projets">
 			<div class="container">
 				<div class="row">
@@ -52,28 +62,18 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioItem1" class="portfolio-link" data-toggle="modal">
+					<div class="col-sm-4 col-lg-offset-2 portfolio-item">
+						<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 							<div class="caption">
                             	<div class="caption-content">
                                 	<i class="fa fa-search-plus fa-3x"></i>
                             	</div>
                         	</div>
-                        	<img src="../img/diplome-blog.png" class="img-responsive" alt="">
+                        	<img src="../img/hat.png" alt="" class="img-res-pers">
 						</a>
 					</div>
 					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioItem1" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-                            	<div class="caption-content">
-                                	<i class="fa fa-search-plus fa-3x"></i>
-                            	</div>
-                        	</div>
-                        	<img src="../img/game_controller.png" class="img-responsive" alt="">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#portfolioItem1" class="portfolio-link" data-toggle="modal">
+						<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
 							<div class="caption">
                             	<div class="caption-content">
                                 	<i class="fa fa-search-plus fa-3x"></i>
@@ -95,10 +95,10 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-lg-offset-2">
-                    	<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    	<p>Je suis actuellement en dernière année en école d'ingénieur à Polytech Lille en <i>génie informatique et statistiques</i>. Ayant été très tôt passionné par l'informatique, j'ai efféctué un DUT informatique après mon lycée. Cela me permet d'avoir de bonne compétences techniques.</p>
                 	</div>
                 	<div class="col-lg-4">
-                    	<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    	<p>Ma formation a Polytech me permet aussi d'avoir une double casquette informaticien/statisticien. Les données sont devenues de véritables mines d'informations. Cette double casquette est essentielle quand on sait qu'un des grands enjeux de l'informatique de demain est le data mining.</p>
                 	</div>
 				</div>
 			</div>
@@ -157,5 +157,6 @@
 				</div>
 			</div>
 		</footer>
+		<?php include 'projectModal.html';?>
 	</body>
 </html>
